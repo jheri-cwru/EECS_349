@@ -6,11 +6,7 @@ Section 2 (Packing):
 
 PE-Import_Packed.exe is a packed version of PE-Import (packed using UPX).
 
-![Normal Import Table][]
-
-![Packed Import Table][]
-
-![Unpacked Import Table][]
+![Import Tables][HW_2_Q1/Attachments/Imports.png]
 
 Packing the executable resulted in a reduced file size and the Name RVA / FirstThunk of the import table entries changed (though description/name remained constant).
 
