@@ -31,6 +31,19 @@ The decomilation of my program resulted in the following comparision:
 ![Original](Attachments/HW3_P3_Q1.png)
 ![Solution](Attachments/HW3_P3_Q1_S.png)
 
+Question 2 (Reverse Engineering):
+
+The presented code follows the basic below logic:
+
+- Define an array of integers, and two counter variables.
+- If the second counter variable is less than 7, and the value matching array{counter2} is less than counter1, increment counter 2
+- Otherwise print counter 1 and end the program.
+
+The decomilation of my program resulted in the following comparision:
+
+![Original](Attachments/HW3_P3_Q2.png)
+![Solution](Attachments/HW3_P3_Q2_S.png)
+
 Question 4 (Decompiliation & Reverse Engineering):
 
 The provided exe outputs the number 50 to standard output when run, and has the following structure when decompiled:
