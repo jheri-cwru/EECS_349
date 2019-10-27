@@ -35,3 +35,17 @@ Question 4 (Decompiliation & Reverse Engineering):
 
 The provided exe outputs the number 50 to standard output when run, and has the following structure when decompiled:
 
+![Original](Attachments/HW3_P3_Q4.png)
+
+It's basic structure was as follows:
+
+- Define 3 variables (integers 7, 100, 0)
+- Enter a while loop dependent on the third integer being less than the second (100)
+- During this while loop increment the third integer.
+- Pass these integers off to a secondary function.
+- The secondary function performs unknown operations (???).
+- The resulting integer (50) is the printed to the screen.
+
+I was able to match the majority of the primary program's logic, but have yet to understand the secondary function that is called.
+
+![Original](Attachments/HW3_P3_Q4_S.png)
