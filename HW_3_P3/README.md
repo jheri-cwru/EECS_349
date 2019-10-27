@@ -30,3 +30,8 @@ The decomilation of my program resulted in the following comparision:
 
 ![Original](Attachments/HW3_P3_Q1.png)
 ![Solution](Attachments/HW3_P3_Q1_S.png)
+
+Question 4 (Decompiliation & Reverse Engineering):
+
+The provided exe outputs the number 50 to standard output when run, and has the following structure when decompiled:
+
