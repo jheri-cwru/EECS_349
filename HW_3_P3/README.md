@@ -28,8 +28,7 @@ Although I was not able to perfectly match the original functionality - I do bel
 
 The decomilation of my program resulted in the following comparision:
 
-![Original](Attachments/HW3_P3_Q1.png)
-![Solution](Attachments/HW3_P3_Q1_S.png)
+![Original](Attachments/HW3_P3_Q1.png) ![Solution](Attachments/HW3_P3_Q1_S.png)
 
 Question 2 (Reverse Engineering):
 
