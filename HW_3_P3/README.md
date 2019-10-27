@@ -41,8 +41,8 @@ The presented code follows the basic below logic:
 
 The decomilation of my program resulted in the following comparision:
 
-![Original](Attachments/HW3_P3_Q.png)
-![Solution](Attachments/HW3_P3_Q_S.png)
+![Original](Attachments/HW3_P3_Q2.png)
+![Solution](Attachments/HW3_P3_Q2_S.png)
 
 Question 4 (Decompiliation & Reverse Engineering):
 
