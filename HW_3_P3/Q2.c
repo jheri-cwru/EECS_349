@@ -5,7 +5,7 @@ int main()
     int vars[] = {12,15,221,3,432,54,16,67};
     
     int i = 0;
-	int j = 0;
+    int j = 0;
 
     goto function1;
     
