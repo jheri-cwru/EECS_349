@@ -18,4 +18,8 @@ Now, any name entered with any serial number will be evaluated as a successful c
 
 --
 
-Question 2 - Determine Credential Auditing Algorithm
+Question 2 - Determine Credential Auditing Algorithm:
+
+The first step in determining how serial numbers are matched to names is to find what calls the successfull message box.
+
+![Import Tables](Attachments/HW3_P1_Q1_SERIAL.png)
