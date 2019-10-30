@@ -6,4 +6,6 @@ Our goal is to change the program so that, even when incorrect credentials are e
 
 This is simple enough. First we have to determine what logic is triggering the rejection message. To do that we find the rejection message in the diassembled code, and analyze its calling function:
 
+![Import Tables](Attachments/HW3_P1_Q1_MESSAGE_BOXES.png)
 
+![Import Tables](Attachments/HW3_P1_Q1_CALLING_FUNCTION.png)
