@@ -51,4 +51,9 @@ Putting together what we know, the algorithm for the serialization of a username
 So, for example, the following would be username-serial pairs:
 
 JOSH: 17784
+
 YUJIE: 17866
+
+SHIFU: 17715
+
+YIMING: 17793
