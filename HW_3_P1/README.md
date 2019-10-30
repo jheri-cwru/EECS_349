@@ -24,7 +24,7 @@ The first step in determining how serial numbers are matched to names is to find
 
 ![CALLTREE](Attachments/HW3_P1_Q2_CALLTREE.png)
 
-So it appears that the last step in the algorith is to check if EAX and EBX registers are equal - so now we know where to look for modification of data.
+So it appears that the last step in the algorithm is to check if EAX and EBX registers are equal - so now we know where to look for modification of data.
 
 If we follow the calls before this comparison we notice more interesting information:
 
