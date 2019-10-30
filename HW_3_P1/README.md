@@ -6,13 +6,13 @@ Our goal is to change the program so that, even when incorrect credentials are e
 
 This is simple enough. First we have to determine what logic is triggering the rejection message. To do that we find the rejection message in the diassembled code, and analyze its calling function:
 
-![Import Tables](Attachments/HW3_P1_Q1_MESSAGE_BOXES.png)
+![MESSAGE_BOXES](Attachments/HW3_P1_Q1_MESSAGE_BOXES.png)
 
-![Import Tables](Attachments/HW3_P1_Q1_CALLING_FUNCTION.png)
+![CALLING_FUNCTION](Attachments/HW3_P1_Q1_CALLING_FUNCTION.png)
 
 We then simply re-write the calling instruction to load the desired messagebox instead:
 
-![Import Tables](Attachments/HW3_P1_Q1_MODIFICATION.png)
+![MODIFICATION](Attachments/HW3_P1_Q1_MODIFICATION.png)
 
 Now, any name entered with any serial number will be evaluated as a successful combination. The modified binary is labeled CRACKME_CRACKED_BINARY.exe
 
@@ -22,4 +22,4 @@ Question 2 - Determine Credential Auditing Algorithm:
 
 The first step in determining how serial numbers are matched to names is to find what calls the successfull message box.
 
-![Import Tables](Attachments/HW3_P1_Q1_SERIAL.png)
+![SERIAL](Attachments/HW3_P1_Q2_SERIAL.png)
