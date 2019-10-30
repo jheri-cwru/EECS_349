@@ -9,3 +9,13 @@ This is simple enough. First we have to determine what logic is triggering the r
 ![Import Tables](Attachments/HW3_P1_Q1_MESSAGE_BOXES.png)
 
 ![Import Tables](Attachments/HW3_P1_Q1_CALLING_FUNCTION.png)
+
+We then simply re-write the calling instruction to load the desired messagebox instead:
+
+![Import Tables](Attachments/HW3_P1_Q1_MODIFICATION.png)
+
+Now, any name entered with any serial number will be evaluated as a successful combination. The modified binary is labeled CRACKME_CRACKED_BINARY.exe
+
+--
+
+Question 2 - Determine Credential Auditing Algorithm
