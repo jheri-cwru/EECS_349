@@ -22,4 +22,4 @@ Question 2 - Determine Credential Auditing Algorithm:
 
 The first step in determining how serial numbers are matched to names is to find what calls the successfull message box.
 
-![SERIAL](Attachments/HW3_P1_Q2_SERIAL.png)
+![SERIAL](Attachments/HW3_P1_Q2_CALLTREE.png)
