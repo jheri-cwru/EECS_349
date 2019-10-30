@@ -29,3 +29,21 @@ So it appears that the last step in the algorith is to check if EAX and EBX regi
 If we follow the calls before this comparison we notice more interesting information:
 
 ![CALLTREE](Attachments/HW3_P1_Q2_SERIAL.png)
+
+It seems that our codified name is being XOR'd with 1234 to give us our serial value - which is later compared to the user input.
+
+Now we know how the serial is calculated, we just have to determine what modifications the name undergoes (if any) before this XOR step.
+
+After digging through some function calls, it becomes apparent that we are paying attention to the ASCII values of the charecters in our username - specifically their sum.
+
+Putting together what we know, the algorith for the cserialization of a username is as follows:
+
+- Get username from user (ASCII Representation)
+- Convert username to uppercase (ASCII Representation)
+- Sum ASCII representation of username
+- XOR summation with 1234
+- COmpare calculated serial with user input
+
+So, for example, the following would be username-serial pairs:
+
+JOSH: 17784
